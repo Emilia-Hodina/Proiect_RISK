@@ -54,8 +54,8 @@ namespace Proiect_RISK
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.main_salveaza = new System.Windows.Forms.Button();
+            this.main_anuleaza = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Nume = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,11 +64,11 @@ namespace Proiect_RISK
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.main_bunuri = new System.Windows.Forms.Button();
+            this.main_amenintari = new System.Windows.Forms.Button();
+            this.main_vulnerabilitati = new System.Windows.Forms.Button();
+            this.main_riscuri = new System.Windows.Forms.Button();
+            this.main_tratare = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -137,11 +137,11 @@ namespace Proiect_RISK
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(231)))), ((int)(((byte)(225)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.button7);
-            this.panel3.Controls.Add(this.button6);
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.main_tratare);
+            this.panel3.Controls.Add(this.main_riscuri);
+            this.panel3.Controls.Add(this.main_vulnerabilitati);
+            this.panel3.Controls.Add(this.main_amenintari);
+            this.panel3.Controls.Add(this.main_bunuri);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
@@ -331,37 +331,37 @@ namespace Proiect_RISK
             this.textBox3.Size = new System.Drawing.Size(73, 20);
             this.textBox3.TabIndex = 19;
             // 
-            // button1
+            // main_salveaza
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(231)))), ((int)(((byte)(225)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(870, 196);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 26);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Salveaza";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.main_salveaza.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(231)))), ((int)(((byte)(225)))));
+            this.main_salveaza.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_salveaza.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_salveaza.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_salveaza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_salveaza.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.main_salveaza.Location = new System.Drawing.Point(870, 196);
+            this.main_salveaza.Name = "main_salveaza";
+            this.main_salveaza.Size = new System.Drawing.Size(106, 26);
+            this.main_salveaza.TabIndex = 20;
+            this.main_salveaza.Text = "Salveaza";
+            this.main_salveaza.UseVisualStyleBackColor = false;
+            this.main_salveaza.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // main_anuleaza
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(231)))), ((int)(((byte)(225)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Enabled = false;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(982, 196);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 26);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Anuleaza";
-            this.button2.UseVisualStyleBackColor = false;
+            this.main_anuleaza.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(231)))), ((int)(((byte)(225)))));
+            this.main_anuleaza.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_anuleaza.Enabled = false;
+            this.main_anuleaza.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_anuleaza.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_anuleaza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_anuleaza.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.main_anuleaza.Location = new System.Drawing.Point(982, 196);
+            this.main_anuleaza.Name = "main_anuleaza";
+            this.main_anuleaza.Size = new System.Drawing.Size(106, 26);
+            this.main_anuleaza.TabIndex = 21;
+            this.main_anuleaza.Text = "Anuleaza";
+            this.main_anuleaza.UseVisualStyleBackColor = false;
             // 
             // label20
             // 
@@ -419,75 +419,76 @@ namespace Proiect_RISK
             this.Column5.HeaderText = "Cost de reducere";
             this.Column5.Name = "Column5";
             // 
-            // button3
+            // main_bunuri
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(11, 76);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Identificare bunuri";
-            this.button3.UseVisualStyleBackColor = true;
+            this.main_bunuri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_bunuri.FlatAppearance.BorderSize = 0;
+            this.main_bunuri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_bunuri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_bunuri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_bunuri.Location = new System.Drawing.Point(11, 76);
+            this.main_bunuri.Name = "main_bunuri";
+            this.main_bunuri.Size = new System.Drawing.Size(141, 23);
+            this.main_bunuri.TabIndex = 5;
+            this.main_bunuri.Text = "Identificare bunuri";
+            this.main_bunuri.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // main_amenintari
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(11, 105);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(141, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Identificare amenintari";
-            this.button4.UseVisualStyleBackColor = true;
+            this.main_amenintari.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_amenintari.FlatAppearance.BorderSize = 0;
+            this.main_amenintari.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_amenintari.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_amenintari.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_amenintari.Location = new System.Drawing.Point(11, 105);
+            this.main_amenintari.Name = "main_amenintari";
+            this.main_amenintari.Size = new System.Drawing.Size(141, 23);
+            this.main_amenintari.TabIndex = 6;
+            this.main_amenintari.Text = "Identificare amenintari";
+            this.main_amenintari.UseVisualStyleBackColor = true;
+            this.main_amenintari.Click += new System.EventHandler(this.main_amenintari_Click);
             // 
-            // button5
+            // main_vulnerabilitati
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(11, 134);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(141, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Identificare vulnerabilitati";
-            this.button5.UseVisualStyleBackColor = true;
+            this.main_vulnerabilitati.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_vulnerabilitati.FlatAppearance.BorderSize = 0;
+            this.main_vulnerabilitati.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_vulnerabilitati.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_vulnerabilitati.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_vulnerabilitati.Location = new System.Drawing.Point(11, 134);
+            this.main_vulnerabilitati.Name = "main_vulnerabilitati";
+            this.main_vulnerabilitati.Size = new System.Drawing.Size(141, 23);
+            this.main_vulnerabilitati.TabIndex = 7;
+            this.main_vulnerabilitati.Text = "Identificare vulnerabilitati";
+            this.main_vulnerabilitati.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // main_riscuri
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(11, 163);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(141, 23);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Identificare riscuri";
-            this.button6.UseVisualStyleBackColor = true;
+            this.main_riscuri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_riscuri.FlatAppearance.BorderSize = 0;
+            this.main_riscuri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_riscuri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_riscuri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_riscuri.Location = new System.Drawing.Point(11, 163);
+            this.main_riscuri.Name = "main_riscuri";
+            this.main_riscuri.Size = new System.Drawing.Size(141, 23);
+            this.main_riscuri.TabIndex = 8;
+            this.main_riscuri.Text = "Identificare riscuri";
+            this.main_riscuri.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // main_tratare
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(11, 192);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(141, 38);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "Tratare riscuri si identificare contramasuri";
-            this.button7.UseVisualStyleBackColor = true;
+            this.main_tratare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_tratare.FlatAppearance.BorderSize = 0;
+            this.main_tratare.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_tratare.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(212)))), ((int)(((byte)(221)))));
+            this.main_tratare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_tratare.Location = new System.Drawing.Point(11, 192);
+            this.main_tratare.Name = "main_tratare";
+            this.main_tratare.Size = new System.Drawing.Size(141, 38);
+            this.main_tratare.TabIndex = 9;
+            this.main_tratare.Text = "Tratare riscuri si identificare contramasuri";
+            this.main_tratare.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -561,8 +562,8 @@ namespace Proiect_RISK
             this.ClientSize = new System.Drawing.Size(1100, 600);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.main_anuleaza);
+            this.Controls.Add(this.main_salveaza);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.textBox2);
@@ -626,8 +627,8 @@ namespace Proiect_RISK
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button main_salveaza;
+        private System.Windows.Forms.Button main_anuleaza;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nume;
@@ -636,11 +637,11 @@ namespace Proiect_RISK
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button main_tratare;
+        private System.Windows.Forms.Button main_riscuri;
+        private System.Windows.Forms.Button main_vulnerabilitati;
+        private System.Windows.Forms.Button main_amenintari;
+        private System.Windows.Forms.Button main_bunuri;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button11;
