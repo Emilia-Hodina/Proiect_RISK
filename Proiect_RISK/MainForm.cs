@@ -41,5 +41,17 @@ namespace Proiect_RISK
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void main_amenintari_Click(object sender, EventArgs e)
+        {
+            AmenintariForm amenForm = new AmenintariForm();
+            amenForm.Show();
+            this.Hide();
+        }
     }
 }
